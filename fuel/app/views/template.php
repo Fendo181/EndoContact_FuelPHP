@@ -27,7 +27,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="/">TopPage</a></li>
                     <li><a href="/request">遠藤連絡</a></li>
-                    <li><a href="/tweet/about">About 遠藤</a></li>
+                    <li><a href="/tweet/about">About 遠藤連絡</a></li>
                 </ul>
             </div>
         </div>

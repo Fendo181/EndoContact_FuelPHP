@@ -10,6 +10,6 @@
 		
 		<div class="form-group">
 			<label class='control-label'>&nbsp;</label>
-			<?php echo Form::submit('submit', 'データベース登録', array('class' => 'btn btn-primary')); ?>		</div>
+			<?php echo Form::submit('submit', '投稿する。', array('class' => 'btn btn-primary')); ?>		</div>
 	</fieldset>
 <?php echo Form::close(); ?>
