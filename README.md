@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #FuelPHP
 # PHP_donichiAPP
 # vagrant-donichi-php-x86_64
@@ -41,3 +42,8 @@ are up to scratch, we will notice you, and will ask you to become a team member.
 * Jelmer Schreuder - Developer ([http://jelmerschreuder.nl/](http://jelmerschreuder.nl/))
 * Phil Sturgeon - Developer ([http://philsturgeon.co.uk](http://philsturgeon.co.uk))
 * Dan Horrigan - Founder, Developer ([http://dhorrigan.com](http://dhorrigan.com))
+=======
+# PHP_donichiAPP
+# vagrant-donichi-php-x86_64
+PHPアプリケーション開発チュートリアル
+>>>>>>> bf7f74dd0b2405e3295c4d94019a681dfe22f5e4
