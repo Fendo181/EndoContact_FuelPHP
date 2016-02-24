@@ -62,7 +62,7 @@ $routerequest = function($route = null, $e = false)
 		$response = $route();
 
 		if( ! $response instanceof Response)
-		{
+		{　
 			$response = Response::forge($response);
 		}
 	}
