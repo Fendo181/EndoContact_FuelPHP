@@ -29,9 +29,8 @@ for($i=3; $i>=0; $i--){
     print "<br>";
 }
 
-print "<br>";
-print "if文とで表示";
-print "<br>";
+
+
 
 $donichi="";
 
