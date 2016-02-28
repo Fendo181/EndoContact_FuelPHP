@@ -28,12 +28,7 @@ for($i=3; $i>=0; $i--){
     print $array_week [$i].$str;
     print "<br>";
 }
-
-
-
-
 $donichi="";
-
 for($i=6;$i>=0;$i--){
     if($array_week[$i]=="土" || $array_week[$i]=="日"){
         $donichi=$donichi.$array_week[$i];
@@ -42,12 +37,9 @@ for($i=6;$i>=0;$i--){
         print "<br>";
     }
 }
-
 print $donichi."でわかるPHPプログラミング教室";
-
 /*
     //数字でfor
-
 print $array_week ["Sun"].$str;
 print "<br>";
 print $array_week ["Mon"].$str;
@@ -62,7 +54,6 @@ print $array_week ["Fri"].$str;
 print "<br>";
 print $array_week ["Sat"].$str;
 print "<br>";
-
 print "<br>";
 $str="曜日でわかるPHPプログラミング教室";
 $array_week=array("日","月","火","水","木","金","土");
@@ -81,5 +72,4 @@ print "<br>";
 print $array_week [6].$str;
 print "<br>";
 */
-
 ?>
