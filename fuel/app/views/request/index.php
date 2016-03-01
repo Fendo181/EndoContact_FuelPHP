@@ -31,6 +31,7 @@
     </div>
 
     <div class="row">
+      
         <?php foreach ($requests as $item){ ?>
             <div class="col-md-4">
                 <h3><?php echo substr($item->body,0,36); ?></h3>
@@ -50,6 +51,7 @@
                 ?>
             </div>
         <?php } ?>
+       
     </div>
     <!-- /.row -->
 </div>
