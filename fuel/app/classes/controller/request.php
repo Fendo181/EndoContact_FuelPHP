@@ -19,9 +19,35 @@ class Controller_Request extends Controller_Template
 			if ($val->run())
 			{
 				$request = Model_Request::forge(array(
+                    //送られたbodyはここには言う
 					'body' => Input::post('body'),
 					'ip' => Input::ip()
 				));
+                
+                //slack通知
+                
+                $value = Input::post('body');
+                
+                $webhook_url = 'https://hooks.slack.com/services/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';
+
+                // Slackに投稿するメッセージ
+                $msg = array(
+                    'username' => 'fuelphp', 
+                    "icon_emoji" => ":new:",
+                    'text' => "新しい投稿がありました!  <http://www.localhost:8080/request>[$value]"
+                    
+                );
+                $msg = json_encode($msg);
+                $msg = 'payload=' . urlencode($msg);
+
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $webhook_url);
+                curl_setopt($ch, CURLOPT_HEADER, false);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $msg);
+                curl_exec($ch);
+                curl_close($ch);
 
 				if ($request and $request->save())
 				{
@@ -62,6 +88,34 @@ class Controller_Request extends Controller_Template
 		{
 			$request->body = Input::post('body');
 			$request->ip = Input::post('ip');
+            
+            #slack通知
+            
+            //slack通知
+                
+                $value = Input::post('body');
+                
+                $webhook_url = 'https://hooks.slack.com/services/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';
+
+                // Slackに投稿するメッセージ
+                $msg = array(
+                    'username' => 'fuelphp', 
+                    "icon_emoji" => ":memo:",
+                    'text' => "投稿が編集されました!  <http://www.localhost:8080/request>[$value]"
+                    
+                );
+                $msg = json_encode($msg);
+                $msg = 'payload=' . urlencode($msg);
+
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $webhook_url);
+                curl_setopt($ch, CURLOPT_HEADER, false);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $msg);
+                curl_exec($ch);
+                curl_close($ch);
+
 
 			if ($request->save())
 			{
