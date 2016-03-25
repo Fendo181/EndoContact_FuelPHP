@@ -49,6 +49,8 @@ are up to scratch, we will notice you, and will ask you to become a team member.
 PHPアプリケーション開発チュートリアル
 >>>>>>> bf7f74dd0b2405e3295c4d94019a681dfe22f5e4
 =======
-# PHP_APP
-PHPアプリケーション開発チュートリアル
->>>>>>> ecc99d8b959a75f2f8cf8e584798701ee2d67999
+
+
+#2016_3_25
+##Slackで通知する機能を追加
+
