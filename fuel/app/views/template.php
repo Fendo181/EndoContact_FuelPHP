@@ -28,6 +28,7 @@
                     
                     <li><h3><a href="/">TopPage/</a></h3></li>
                     <li><h3><a href="/request">遠藤連絡/</a></h3></li>
+                    <li><h3><a href="/email">メールを送る/</a></h3></li>
                     <li><h3><a href="/tweet/about">About 遠藤連絡</a></h3></li>
                     
                 </ul>
