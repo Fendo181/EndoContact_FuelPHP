@@ -4,7 +4,7 @@ PHPアプリケーション開発チュートリアル
 
 ##Git gist
 
-![FuelPHP+MySQLで作る要望掲示板](https://gist.github.com/Fendo181/ef63a58921c755c0d658)
+[FuelPHP+MySQLで作る要望掲示板](https://gist.github.com/Fendo181/ef63a58921c755c0d658)
 
 
 * Version: 1.7.2
