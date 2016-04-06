@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+CHANGELOG.md
+=======
+.rspec
+.vagrant
+>>>>>>> bf7f74dd0b2405e3295c4d94019a681dfe22f5e4
+
+/fuel/app/classes/controller/request.php
+/test/1.txt
+/vagrant/
