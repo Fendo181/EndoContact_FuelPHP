@@ -28,7 +28,7 @@ class Controller_Request extends Controller_Template
                 
                 $value = Input::post('body');
                 
-                $webhook_url = 'https://hooks.slack.com/services/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';
+                $webhook_url = 'test_test';
 
                 // Slackに投稿するメッセージ
                 $msg = array(
