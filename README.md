@@ -1,9 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-#FuelPHP
-# PHP_donichiAPP
-# vagrant-donichi-php-x86_64
 PHPアプリケーション開発チュートリアル
+
+##Vagrant+FuelPHPで通知機能付き要望掲示板作
+
+##Git gist
+
+![FuelPHP+MySQLで作る要望掲示板](https://gist.github.com/Fendo181/ef63a58921c755c0d658)
 
 
 * Version: 1.7.2
